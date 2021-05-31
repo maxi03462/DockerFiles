@@ -1,0 +1,4 @@
+docker run -d -v /home/electro2/Pajarera/src:/var/www/html/ intento
+docker run -d -v /home/electro2/Pajarera/src:/var/www/html/ -p 8000:80 intento
+docker-compose up -d
+
